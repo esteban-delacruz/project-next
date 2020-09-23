@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6593097665913816371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2826143618816301714}
+  - component: {fileID: -2106008977988732194}
+  m_Layer: 0
+  m_Name: UIBattleManager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2826143618816301714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6593097665913816371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 222.68488, y: 130.6874, z: -377.4182}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2106008977988732194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6593097665913816371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9441017e9fac0458cc8e2dc63c68df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wCommandButton: {fileID: 5430623967349732246, guid: efd8764dd61759b4a940f8f837173d31,
+    type: 3}
+  aCommandButton: {fileID: 1750172445224720481, guid: fc33a232f6c41a943964e4759a751ebe,
+    type: 3}
+  sCommandButton: {fileID: 5707382060636774311, guid: 06864a9d831a1f74eb9854f3065720f4,
+    type: 3}
+  dCommandButton: {fileID: 5782965732968316886, guid: 716dd0c6f24022c4494b1223403ba41d,
+    type: 3}
+  commandEntry: {fileID: 8308178143671934904, guid: ec1c0bee6b38c0d46b7565544dca3ce3,
+    type: 3}
